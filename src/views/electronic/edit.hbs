@@ -1,0 +1,29 @@
+<section id="editPage">
+    <form id='editForm' method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" value="{{electronicData.name}}">
+
+        <label for="type">Type:</label>
+        <input type="text" id="type" name="type" value="{{electronicData.type}}">
+
+        <label for="production">Year of Production:</label>
+        <input type="number" id="production" name="production" value="{{electronicData.production}}">
+
+        <label for="exploitation">Years of Exploitation:</label>
+        <input type="number" id="exploitation" name="exploitation" value="{{electronicData.exploitation}}">
+
+        <label for="damages">Damages:</label>
+        <input type="text" id="damages" name="damages" value="{{electronicData.damages}}">
+
+        <label for="image">Image:</label>
+        <input type="text" id="image" name="imageUrl" value="{{electronicData.imageUrl}}">
+
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price" value="{{electronicData.price}}">
+
+        <label for="description">Description:</label>
+        <input type="text" id="description" name="description" value="{{electronicData.description}}">
+
+        <input type="submit" class="edit" value="Edit Offer">
+    </form>
+</section>

@@ -1,0 +1,17 @@
+<section id="registerPage">
+    <form id='registerForm' method="POST">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" value="{{registerData.email}}" placeholder="Email">
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" value="{{registerData.username}}" placeholder="Enter your Username">
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" value="{{registerData.password}}" placeholder="Password">
+
+        <label for="rePassword">Repeat Password:</label>
+        <input type="password" id="rePassword" name="rePassword" value="{{registerData.rePassword}}" placeholder="Repeat Password">
+
+        <input type="submit" class="register" value="Register">
+    </form>
+</section>
